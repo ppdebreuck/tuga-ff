@@ -1,0 +1,719 @@
+{
+  "metadata": {
+    "bond_target": 56,
+    "cutoff": 8.0,
+    "seed": "current",
+    "source": "scripts/element_rc_analysis_tight/merged_cutoffs_for_repo.json + manual bond adjustments guided by pymatgen size trends and broad-table ceilings | 50% gap closure toward Large table for stabilization | Enforced Large table bounds and 7.0A bond cap",
+    "triplet_target": 14
+  },
+  "elements": [
+    {
+      "z": 1,
+      "symbol": "H",
+      "bond_cutoff": 3.8,
+      "triplet_cutoff": 3.0
+    },
+    {
+      "z": 2,
+      "symbol": "He",
+      "bond_cutoff": 5.15,
+      "triplet_cutoff": 3.25
+    },
+    {
+      "z": 3,
+      "symbol": "Li",
+      "bond_cutoff": 5.05,
+      "triplet_cutoff": 3.15
+    },
+    {
+      "z": 4,
+      "symbol": "Be",
+      "bond_cutoff": 5.1,
+      "triplet_cutoff": 3.1
+    },
+    {
+      "z": 5,
+      "symbol": "B",
+      "bond_cutoff": 4.4,
+      "triplet_cutoff": 2.9
+    },
+    {
+      "z": 6,
+      "symbol": "C",
+      "bond_cutoff": 4.2,
+      "triplet_cutoff": 3.0
+    },
+    {
+      "z": 7,
+      "symbol": "N",
+      "bond_cutoff": 4.3,
+      "triplet_cutoff": 3.3
+    },
+    {
+      "z": 8,
+      "symbol": "O",
+      "bond_cutoff": 4.5,
+      "triplet_cutoff": 3.3
+    },
+    {
+      "z": 9,
+      "symbol": "F",
+      "bond_cutoff": 4.8,
+      "triplet_cutoff": 3.55
+    },
+    {
+      "z": 10,
+      "symbol": "Ne",
+      "bond_cutoff": 5.0,
+      "triplet_cutoff": 3.0
+    },
+    {
+      "z": 11,
+      "symbol": "Na",
+      "bond_cutoff": 5.7,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 12,
+      "symbol": "Mg",
+      "bond_cutoff": 5.6,
+      "triplet_cutoff": 3.4
+    },
+    {
+      "z": 13,
+      "symbol": "Al",
+      "bond_cutoff": 5.5,
+      "triplet_cutoff": 3.2
+    },
+    {
+      "z": 14,
+      "symbol": "Si",
+      "bond_cutoff": 5.65,
+      "triplet_cutoff": 3.55
+    },
+    {
+      "z": 15,
+      "symbol": "P",
+      "bond_cutoff": 5.4,
+      "triplet_cutoff": 4.1
+    },
+    {
+      "z": 16,
+      "symbol": "S",
+      "bond_cutoff": 5.6,
+      "triplet_cutoff": 4.2
+    },
+    {
+      "z": 17,
+      "symbol": "Cl",
+      "bond_cutoff": 5.8,
+      "triplet_cutoff": 4.2
+    },
+    {
+      "z": 18,
+      "symbol": "Ar",
+      "bond_cutoff": 5.0,
+      "triplet_cutoff": 3.0
+    },
+    {
+      "z": 19,
+      "symbol": "K",
+      "bond_cutoff": 6.3,
+      "triplet_cutoff": 3.8
+    },
+    {
+      "z": 20,
+      "symbol": "Ca",
+      "bond_cutoff": 5.8,
+      "triplet_cutoff": 3.4
+    },
+    {
+      "z": 21,
+      "symbol": "Sc",
+      "bond_cutoff": 5.65,
+      "triplet_cutoff": 3.35
+    },
+    {
+      "z": 22,
+      "symbol": "Ti",
+      "bond_cutoff": 5.35,
+      "triplet_cutoff": 3.2
+    },
+    {
+      "z": 23,
+      "symbol": "V",
+      "bond_cutoff": 5.25,
+      "triplet_cutoff": 3.15
+    },
+    {
+      "z": 24,
+      "symbol": "Cr",
+      "bond_cutoff": 5.2,
+      "triplet_cutoff": 3.05
+    },
+    {
+      "z": 25,
+      "symbol": "Mn",
+      "bond_cutoff": 5.2,
+      "triplet_cutoff": 3.1
+    },
+    {
+      "z": 26,
+      "symbol": "Fe",
+      "bond_cutoff": 5.3,
+      "triplet_cutoff": 3.1
+    },
+    {
+      "z": 27,
+      "symbol": "Co",
+      "bond_cutoff": 5.15,
+      "triplet_cutoff": 3.05
+    },
+    {
+      "z": 28,
+      "symbol": "Ni",
+      "bond_cutoff": 5.25,
+      "triplet_cutoff": 3.15
+    },
+    {
+      "z": 29,
+      "symbol": "Cu",
+      "bond_cutoff": 5.4,
+      "triplet_cutoff": 3.35
+    },
+    {
+      "z": 30,
+      "symbol": "Zn",
+      "bond_cutoff": 5.7,
+      "triplet_cutoff": 3.3
+    },
+    {
+      "z": 31,
+      "symbol": "Ga",
+      "bond_cutoff": 5.8,
+      "triplet_cutoff": 3.45
+    },
+    {
+      "z": 32,
+      "symbol": "Ge",
+      "bond_cutoff": 5.9,
+      "triplet_cutoff": 3.65
+    },
+    {
+      "z": 33,
+      "symbol": "As",
+      "bond_cutoff": 5.95,
+      "triplet_cutoff": 3.55
+    },
+    {
+      "z": 34,
+      "symbol": "Se",
+      "bond_cutoff": 6.3,
+      "triplet_cutoff": 3.8
+    },
+    {
+      "z": 35,
+      "symbol": "Br",
+      "bond_cutoff": 6.0,
+      "triplet_cutoff": 4.3
+    },
+    {
+      "z": 36,
+      "symbol": "Kr",
+      "bond_cutoff": 6.5,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 37,
+      "symbol": "Rb",
+      "bond_cutoff": 6.7,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 38,
+      "symbol": "Sr",
+      "bond_cutoff": 6.15,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 39,
+      "symbol": "Y",
+      "bond_cutoff": 6.0,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 40,
+      "symbol": "Zr",
+      "bond_cutoff": 5.6,
+      "triplet_cutoff": 3.3
+    },
+    {
+      "z": 41,
+      "symbol": "Nb",
+      "bond_cutoff": 5.4,
+      "triplet_cutoff": 3.2
+    },
+    {
+      "z": 42,
+      "symbol": "Mo",
+      "bond_cutoff": 5.5,
+      "triplet_cutoff": 3.25
+    },
+    {
+      "z": 43,
+      "symbol": "Tc",
+      "bond_cutoff": 5.4,
+      "triplet_cutoff": 3.2
+    },
+    {
+      "z": 44,
+      "symbol": "Ru",
+      "bond_cutoff": 5.3,
+      "triplet_cutoff": 3.15
+    },
+    {
+      "z": 45,
+      "symbol": "Rh",
+      "bond_cutoff": 5.4,
+      "triplet_cutoff": 3.15
+    },
+    {
+      "z": 46,
+      "symbol": "Pd",
+      "bond_cutoff": 5.6,
+      "triplet_cutoff": 3.3
+    },
+    {
+      "z": 47,
+      "symbol": "Ag",
+      "bond_cutoff": 6.0,
+      "triplet_cutoff": 3.7
+    },
+    {
+      "z": 48,
+      "symbol": "Cd",
+      "bond_cutoff": 6.0,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 49,
+      "symbol": "In",
+      "bond_cutoff": 6.0,
+      "triplet_cutoff": 3.55
+    },
+    {
+      "z": 50,
+      "symbol": "Sn",
+      "bond_cutoff": 5.9,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 51,
+      "symbol": "Sb",
+      "bond_cutoff": 6.0,
+      "triplet_cutoff": 3.65
+    },
+    {
+      "z": 52,
+      "symbol": "Te",
+      "bond_cutoff": 6.35,
+      "triplet_cutoff": 3.8
+    },
+    {
+      "z": 53,
+      "symbol": "I",
+      "bond_cutoff": 6.5,
+      "triplet_cutoff": 4.5
+    },
+    {
+      "z": 54,
+      "symbol": "Xe",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.05
+    },
+    {
+      "z": 55,
+      "symbol": "Cs",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.0
+    },
+    {
+      "z": 56,
+      "symbol": "Ba",
+      "bond_cutoff": 6.5,
+      "triplet_cutoff": 3.75
+    },
+    {
+      "z": 57,
+      "symbol": "La",
+      "bond_cutoff": 6.35,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 58,
+      "symbol": "Ce",
+      "bond_cutoff": 6.05,
+      "triplet_cutoff": 3.45
+    },
+    {
+      "z": 59,
+      "symbol": "Pr",
+      "bond_cutoff": 6.4,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 60,
+      "symbol": "Nd",
+      "bond_cutoff": 6.35,
+      "triplet_cutoff": 3.55
+    },
+    {
+      "z": 61,
+      "symbol": "Pm",
+      "bond_cutoff": 6.2,
+      "triplet_cutoff": 3.65
+    },
+    {
+      "z": 62,
+      "symbol": "Sm",
+      "bond_cutoff": 6.1,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 63,
+      "symbol": "Eu",
+      "bond_cutoff": 6.0,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 64,
+      "symbol": "Gd",
+      "bond_cutoff": 5.75,
+      "triplet_cutoff": 3.45
+    },
+    {
+      "z": 65,
+      "symbol": "Tb",
+      "bond_cutoff": 6.0,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 66,
+      "symbol": "Dy",
+      "bond_cutoff": 6.05,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 67,
+      "symbol": "Ho",
+      "bond_cutoff": 6.0,
+      "triplet_cutoff": 3.55
+    },
+    {
+      "z": 68,
+      "symbol": "Er",
+      "bond_cutoff": 5.95,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 69,
+      "symbol": "Tm",
+      "bond_cutoff": 5.95,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 70,
+      "symbol": "Yb",
+      "bond_cutoff": 5.55,
+      "triplet_cutoff": 3.4
+    },
+    {
+      "z": 71,
+      "symbol": "Lu",
+      "bond_cutoff": 5.65,
+      "triplet_cutoff": 3.35
+    },
+    {
+      "z": 72,
+      "symbol": "Hf",
+      "bond_cutoff": 5.5,
+      "triplet_cutoff": 3.2
+    },
+    {
+      "z": 73,
+      "symbol": "Ta",
+      "bond_cutoff": 5.45,
+      "triplet_cutoff": 3.2
+    },
+    {
+      "z": 74,
+      "symbol": "W",
+      "bond_cutoff": 5.55,
+      "triplet_cutoff": 3.25
+    },
+    {
+      "z": 75,
+      "symbol": "Re",
+      "bond_cutoff": 5.5,
+      "triplet_cutoff": 3.2
+    },
+    {
+      "z": 76,
+      "symbol": "Os",
+      "bond_cutoff": 5.4,
+      "triplet_cutoff": 3.15
+    },
+    {
+      "z": 77,
+      "symbol": "Ir",
+      "bond_cutoff": 5.5,
+      "triplet_cutoff": 3.25
+    },
+    {
+      "z": 78,
+      "symbol": "Pt",
+      "bond_cutoff": 5.65,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 79,
+      "symbol": "Au",
+      "bond_cutoff": 5.9,
+      "triplet_cutoff": 3.8
+    },
+    {
+      "z": 80,
+      "symbol": "Hg",
+      "bond_cutoff": 6.25,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 81,
+      "symbol": "Tl",
+      "bond_cutoff": 6.25,
+      "triplet_cutoff": 3.7
+    },
+    {
+      "z": 82,
+      "symbol": "Pb",
+      "bond_cutoff": 6.5,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 83,
+      "symbol": "Bi",
+      "bond_cutoff": 6.1,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 84,
+      "symbol": "Po",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.0
+    },
+    {
+      "z": 85,
+      "symbol": "At",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.5
+    },
+    {
+      "z": 86,
+      "symbol": "Rn",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.4
+    },
+    {
+      "z": 87,
+      "symbol": "Fr",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.0
+    },
+    {
+      "z": 88,
+      "symbol": "Ra",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 89,
+      "symbol": "Ac",
+      "bond_cutoff": 6.3,
+      "triplet_cutoff": 3.65
+    },
+    {
+      "z": 90,
+      "symbol": "Th",
+      "bond_cutoff": 5.85,
+      "triplet_cutoff": 3.45
+    },
+    {
+      "z": 91,
+      "symbol": "Pa",
+      "bond_cutoff": 5.75,
+      "triplet_cutoff": 3.35
+    },
+    {
+      "z": 92,
+      "symbol": "U",
+      "bond_cutoff": 5.55,
+      "triplet_cutoff": 3.25
+    },
+    {
+      "z": 93,
+      "symbol": "Np",
+      "bond_cutoff": 5.65,
+      "triplet_cutoff": 3.3
+    },
+    {
+      "z": 94,
+      "symbol": "Pu",
+      "bond_cutoff": 5.85,
+      "triplet_cutoff": 3.45
+    },
+    {
+      "z": 95,
+      "symbol": "Am",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.8
+    },
+    {
+      "z": 96,
+      "symbol": "Cm",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.8
+    },
+    {
+      "z": 97,
+      "symbol": "Bk",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 98,
+      "symbol": "Cf",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 99,
+      "symbol": "Es",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 100,
+      "symbol": "Fm",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.8
+    },
+    {
+      "z": 101,
+      "symbol": "Md",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.8
+    },
+    {
+      "z": 102,
+      "symbol": "No",
+      "bond_cutoff": 6.7,
+      "triplet_cutoff": 3.7
+    },
+    {
+      "z": 103,
+      "symbol": "Lr",
+      "bond_cutoff": 6.8,
+      "triplet_cutoff": 3.7
+    },
+    {
+      "z": 104,
+      "symbol": "Rf",
+      "bond_cutoff": 6.5,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 105,
+      "symbol": "Db",
+      "bond_cutoff": 6.4,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 106,
+      "symbol": "Sg",
+      "bond_cutoff": 6.6,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 107,
+      "symbol": "Bh",
+      "bond_cutoff": 6.5,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 108,
+      "symbol": "Hs",
+      "bond_cutoff": 6.3,
+      "triplet_cutoff": 3.4
+    },
+    {
+      "z": 109,
+      "symbol": "Mt",
+      "bond_cutoff": 6.5,
+      "triplet_cutoff": 3.5
+    },
+    {
+      "z": 110,
+      "symbol": "Ds",
+      "bond_cutoff": 6.8,
+      "triplet_cutoff": 3.6
+    },
+    {
+      "z": 111,
+      "symbol": "Rg",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.8
+    },
+    {
+      "z": 112,
+      "symbol": "Cn",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.0
+    },
+    {
+      "z": 113,
+      "symbol": "Nh",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.0
+    },
+    {
+      "z": 114,
+      "symbol": "Fl",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 115,
+      "symbol": "Mc",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 3.9
+    },
+    {
+      "z": 116,
+      "symbol": "Lv",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.1
+    },
+    {
+      "z": 117,
+      "symbol": "Ts",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.5
+    },
+    {
+      "z": 118,
+      "symbol": "Og",
+      "bond_cutoff": 7.0,
+      "triplet_cutoff": 4.4
+    }
+  ]
+}
